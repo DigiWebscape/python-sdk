@@ -16,5 +16,5 @@ from .client import DigiWebscape
 from .errors import DigiWebscapeError
 from .security import verify_webhook_signature
 
-__version__ = "0.16.13"
+__version__ = "0.16.15"
 __all__ = ["DigiWebscape", "DigiWebscapeError", "verify_webhook_signature", "__version__"]
